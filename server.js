@@ -3,7 +3,7 @@ import cors from 'cors';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 
-// Route imports
+// Route imports.  
 import authRoutes from './routes/authRoutes.js';
 import productRoutes from './routes/productRoutes.js';
 import categoryRoutes from './routes/categoryRoutes.js';
@@ -11,7 +11,7 @@ import orderRoutes from './routes/orderRoutes.js';
 import reviewRoutes from './routes/reviewRoutes.js';
 import uploadRoutes from './routes/uploadRoutes.js';
 
-// Load environment variables
+// Load environment variables 
 dotenv.config();
 
 const app = express();
